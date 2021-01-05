@@ -1,0 +1,8 @@
+C:\projects\common.infrastructure\bin\Debug\netcoreapp3.1\common.infrastructure.deps.json
+C:\projects\common.infrastructure\bin\Debug\netcoreapp3.1\common.infrastructure.dll
+C:\projects\common.infrastructure\bin\Debug\netcoreapp3.1\common.infrastructure.pdb
+C:\projects\common.infrastructure\obj\Debug\netcoreapp3.1\common.infrastructure.AssemblyInfoInputs.cache
+C:\projects\common.infrastructure\obj\Debug\netcoreapp3.1\common.infrastructure.AssemblyInfo.cs
+C:\projects\common.infrastructure\obj\Debug\netcoreapp3.1\common.infrastructure.csproj.CoreCompileInputs.cache
+C:\projects\common.infrastructure\obj\Debug\netcoreapp3.1\common.infrastructure.dll
+C:\projects\common.infrastructure\obj\Debug\netcoreapp3.1\common.infrastructure.pdb

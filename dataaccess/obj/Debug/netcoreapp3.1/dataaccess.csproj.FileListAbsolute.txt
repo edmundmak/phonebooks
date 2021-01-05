@@ -1,0 +1,15 @@
+C:\projects\dataaccess\obj\Debug\netcoreapp3.1\dataaccess.csprojAssemblyReference.cache
+C:\projects\dataaccess\obj\Debug\netcoreapp3.1\dataaccess.AssemblyInfoInputs.cache
+C:\projects\dataaccess\obj\Debug\netcoreapp3.1\dataaccess.AssemblyInfo.cs
+C:\projects\dataaccess\obj\Debug\netcoreapp3.1\dataaccess.csproj.CoreCompileInputs.cache
+C:\projects\dataaccess\bin\Debug\netcoreapp3.1\dataaccess.deps.json
+C:\projects\dataaccess\bin\Debug\netcoreapp3.1\dataaccess.runtimeconfig.json
+C:\projects\dataaccess\bin\Debug\netcoreapp3.1\dataaccess.runtimeconfig.dev.json
+C:\projects\dataaccess\bin\Debug\netcoreapp3.1\dataaccess.dll
+C:\projects\dataaccess\bin\Debug\netcoreapp3.1\dataaccess.pdb
+C:\projects\dataaccess\bin\Debug\netcoreapp3.1\common.infrastructure.dll
+C:\projects\dataaccess\bin\Debug\netcoreapp3.1\common.infrastructure.pdb
+C:\projects\dataaccess\obj\Debug\netcoreapp3.1\dataaccess.csproj.CopyComplete
+C:\projects\dataaccess\obj\Debug\netcoreapp3.1\dataaccess.dll
+C:\projects\dataaccess\obj\Debug\netcoreapp3.1\dataaccess.pdb
+C:\projects\dataaccess\obj\Debug\netcoreapp3.1\dataaccess.genruntimeconfig.cache

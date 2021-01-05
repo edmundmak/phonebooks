@@ -10,7 +10,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\common.infrastructure\common.infrastructure.csproj" />
-    <ProjectReference Include="..\dataaccess\dataaccess.csproj" />
   </ItemGroup>
 
 

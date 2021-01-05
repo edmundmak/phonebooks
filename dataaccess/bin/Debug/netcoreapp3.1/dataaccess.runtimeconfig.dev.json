@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\emakuwaz\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\emakuwaz\\.nuget\\packages"
+    ]
+  }
+}
