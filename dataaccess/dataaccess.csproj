@@ -16,4 +16,8 @@
     <ProjectReference Include="..\common.infrastructure\common.infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Model\" />
+  </ItemGroup>
+
 </Project>

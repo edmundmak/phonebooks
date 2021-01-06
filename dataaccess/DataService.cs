@@ -41,12 +41,9 @@ namespace dataaccess
 
                     Entry bookEntry = new Entry
                     {
-                        Address = createPhoneBookRequest.Address,
-                        Email = createPhoneBookRequest.Email,
                         Name = createPhoneBookRequest.Name,
                         PhoneBookId = phonebookID,
-                        PhoneNumber = createPhoneBookRequest.PhoneNumber,
-                        Surname = createPhoneBookRequest.Surname
+                        PhoneNumber = createPhoneBookRequest.PhoneNumber
                     };
                     dbcontext.Entries.Add(bookEntry);
                     dbcontext.SaveChanges();
@@ -60,7 +57,7 @@ namespace dataaccess
         }
         private List<EntryResponses> getEntriesByPhoneBookID(int phonebookID)
         {
-            List<EntryResponses> entryResponses=null;
+            List<EntryResponses> entryResponses=new List<EntryResponses>();
               using (var dbcontext = new PhoneBookContext())
                 {
                     var entries = dbcontext.Entries.Where(entry => entry.PhoneBookId.Equals(phonebookID)).ToList();
@@ -68,12 +65,10 @@ namespace dataaccess
                     {
                         EntryResponses newEntry = new EntryResponses
                         {
-                            Address = entry.Address,
-                            Email = entry.Email,
+                           
                             ID = entry.Id,
                             Name = entry.Name,
-                            PhoneNumber = entry.PhoneNumber,
-                            Surname = entry.Surname
+                            PhoneNumber = entry.PhoneNumber
                         };
                         entryResponses.Add(newEntry);
                     }

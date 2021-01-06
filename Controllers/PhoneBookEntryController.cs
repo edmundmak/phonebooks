@@ -23,16 +23,15 @@ namespace phonebook.Controllers
             _services = services;
         }
 
-        [HttpGet]
-        public PhoneBookResponses GetPhoneBookEntries([FromForm] GetPhoneBookRequest getPhoneBookRequest)
+        [HttpPost]
+        public PhoneBookResponses GetPhoneBookEntries([FromBody] GetPhoneBookRequest getPhoneBookRequest)
         {
             var response = _services.GetPhoneEntryByPhoneBookName(getPhoneBookRequest);
             return response;
         }
 
-        [HttpPost]
-        [Route("createentry")]
-        public CreatePhoneBookResponses CreatePhoneBooks([FromForm]CreatePhoneBookRequest createPhoneBookRequest)
+        [HttpPost("createentry")]
+        public CreatePhoneBookResponses CreatePhoneBooks([FromForm] CreatePhoneBookRequest createPhoneBookRequest)
         {
             var response = _services.CreatePhoneBooks(createPhoneBookRequest);
             return response;

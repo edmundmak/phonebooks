@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\phonebooks\\common.infrastructure\\common.infrastructure.csproj",
+      "projectUniqueName": "C:\\projects\\common.infrastructure\\common.infrastructure.csproj",
       "projectName": "common.infrastructure",
-      "projectPath": "C:\\Projects\\phonebooks\\common.infrastructure\\common.infrastructure.csproj",
+      "projectPath": "C:\\projects\\common.infrastructure\\common.infrastructure.csproj",
       "packagesPath": "C:\\Users\\emakuwaz\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\phonebooks\\common.infrastructure\\obj\\",
+      "outputPath": "C:\\projects\\common.infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\emakuwaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
