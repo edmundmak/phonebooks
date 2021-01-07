@@ -31,7 +31,7 @@ namespace phonebook.Controllers
         }
 
         [HttpPost("createentry")]
-        public CreatePhoneBookResponses CreatePhoneBooks([FromForm] CreatePhoneBookRequest createPhoneBookRequest)
+        public CreatePhoneBookResponses CreatePhoneBooks([FromBody] CreatePhoneBookRequest createPhoneBookRequest)
         {
             var response = _services.CreatePhoneBooks(createPhoneBookRequest);
             return response;

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nfXh7dq8UPIAnhQ8hPE0dLLgfJAUXLoNmLSkjLCmvqHZy6C48ACPOZcicfAMGTO7P6SAUXnNOkIhVKlF2mmHRA==",
+  "dgSpecHash": "L3XelB89Ctj9jxNqcffhxNWrOQx7GIyimoMlwTNYSOVZYJ+3aXgacQA3hKB0qm3vaxxR97pAPk2kAxfBh+HIZQ==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\phonebook\\phonebook.csproj",
+  "projectFilePath": "C:\\Projects\\phonebook_new\\phonebook\\phonebook.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\emakuwaz\\.nuget\\packages\\arutmlth\\1.0.2\\arutmlth.1.0.2.nupkg.sha512",
     "C:\\Users\\emakuwaz\\.nuget\\packages\\jquery\\2.1.1\\jquery.2.1.1.nupkg.sha512",
