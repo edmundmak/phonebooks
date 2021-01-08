@@ -1,8 +1,10 @@
+import { ICreatePhoneBookHttp } from 'src/app/models/http-models/phonebook-http.interface';
 import { IPhoneBook } from 'src/app/models/IPhoneBook';
 
 export interface IPhoneBookState {
     phonebooks: IPhoneBook[];
     selectedPhoneBook: IPhoneBook;
+    createphoneBook:ICreatePhoneBookHttp;
     success:boolean,
     message:string,
     phoneBookName:string
@@ -13,7 +15,8 @@ export interface IPhoneBookState {
     selectedPhoneBook: null,
     success:false,
     message:"",
-    phoneBookName:""
+    phoneBookName:"",
+    createphoneBook:null
   };
 
   

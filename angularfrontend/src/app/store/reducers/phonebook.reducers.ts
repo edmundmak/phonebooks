@@ -24,7 +24,7 @@ export const phonebookReducers = (
       case EPhoneBookActions.CreatePhoneBookSuccess: {
         return {
           ...state,
-          phonebooks: action.payload
+          createphoneBook: action.payload, 
         };
       }
     default:

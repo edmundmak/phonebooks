@@ -35,10 +35,18 @@ namespace dataaccess
                 using (var dbcontext = new PhoneBookContext())
                 {
                     PhoneBook addBook = new PhoneBook { Name = createPhoneBookRequest.PhoneBookName };
-                    dbcontext.PhoneBooks.Add(addBook);
-                    dbcontext.SaveChanges();
-                    var phonebookID = addBook.Id;
-
+                    var checkPhoneBookNameIFExists = dbcontext.PhoneBooks.Where(name => name.Name.Equals(createPhoneBookRequest.PhoneBookName)).SingleOrDefault();
+                    int phonebookID;
+                    if (checkPhoneBookNameIFExists.Id < 0)
+                    {
+                        dbcontext.PhoneBooks.Add(addBook);
+                        dbcontext.SaveChanges();
+                        phonebookID = addBook.Id;
+                    }
+                    else
+                    {
+                        phonebookID = checkPhoneBookNameIFExists.Id;
+                    }
                     Entry bookEntry = new Entry
                     {
                         Name = createPhoneBookRequest.Name,

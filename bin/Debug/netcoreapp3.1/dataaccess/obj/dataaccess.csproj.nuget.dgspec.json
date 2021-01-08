@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\dataaccess\\dataaccess.csproj": {}
+    "C:\\Projects\\phonebook_new\\phonebook\\dataaccess\\dataaccess.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\common.infrastructure\\common.infrastructure.csproj": {
+    "C:\\Projects\\phonebook_new\\phonebook\\common.infrastructure\\common.infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\common.infrastructure\\common.infrastructure.csproj",
+        "projectUniqueName": "C:\\Projects\\phonebook_new\\phonebook\\common.infrastructure\\common.infrastructure.csproj",
         "projectName": "common.infrastructure",
-        "projectPath": "C:\\Projects\\common.infrastructure\\common.infrastructure.csproj",
+        "projectPath": "C:\\Projects\\phonebook_new\\phonebook\\common.infrastructure\\common.infrastructure.csproj",
         "packagesPath": "C:\\Users\\emakuwaz\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\common.infrastructure\\obj\\",
+        "outputPath": "C:\\Projects\\phonebook_new\\phonebook\\common.infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\emakuwaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "C:\\Projects\\dataaccess\\dataaccess.csproj": {
+    "C:\\Projects\\phonebook_new\\phonebook\\dataaccess\\dataaccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\dataaccess\\dataaccess.csproj",
+        "projectUniqueName": "C:\\Projects\\phonebook_new\\phonebook\\dataaccess\\dataaccess.csproj",
         "projectName": "dataaccess",
-        "projectPath": "C:\\Projects\\dataaccess\\dataaccess.csproj",
+        "projectPath": "C:\\Projects\\phonebook_new\\phonebook\\dataaccess\\dataaccess.csproj",
         "packagesPath": "C:\\Users\\emakuwaz\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\dataaccess\\obj\\",
+        "outputPath": "C:\\Projects\\phonebook_new\\phonebook\\dataaccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\emakuwaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Projects\\common.infrastructure\\common.infrastructure.csproj": {
-                "projectPath": "C:\\Projects\\common.infrastructure\\common.infrastructure.csproj"
+              "C:\\Projects\\phonebook_new\\phonebook\\common.infrastructure\\common.infrastructure.csproj": {
+                "projectPath": "C:\\Projects\\phonebook_new\\phonebook\\common.infrastructure\\common.infrastructure.csproj"
               }
             }
           }
@@ -98,6 +98,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",

@@ -3,7 +3,7 @@ import { Router, ActivatedRoute } from '@angular/router';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { first } from 'rxjs/operators';
 import { CreatePhoneBook, GetPhoneBooks } from '../store/actions/phonebook.actions';
-import { selectPhoneBookList } from '../store/selectors/phonebook.selectors';
+import { selectCreateedPhoneBook, selectPhoneBookList } from '../store/selectors/phonebook.selectors';
 import { IAppState } from '../store/state/app.state';
 import { Store, select } from '@ngrx/store';
 import { Observable } from 'rxjs';
@@ -19,6 +19,8 @@ export class CreateentryComponent implements OnInit {
   form: FormGroup;
   loading = false;
   submitted = false;
+  errorMessage="";
+  success=false;
 
   constructor(
       private formBuilder: FormBuilder,
@@ -28,7 +30,7 @@ export class CreateentryComponent implements OnInit {
    
   ) { }
 
- 
+  phonebookCreated$ = this._store.pipe(select(selectCreateedPhoneBook));
 
   ngOnInit(): void {
     this.form = this.formBuilder.group({
@@ -53,6 +55,12 @@ export class CreateentryComponent implements OnInit {
     this.loading = true;
     this._store.dispatch(new CreatePhoneBook([{name:this.form.value.name,phoneNumber:
     this.form.value.phoneNumber,success:false,message:"", phoneBookName:phonebookName}]));
+    this.phonebookCreated$.subscribe(response => {
+      debugger;
+      this.loading=false;
+      this.errorMessage=(response!=null)?response.message:"";
+      this.success=(response!=null)?response.success:false;
+     });
 }
 
 }

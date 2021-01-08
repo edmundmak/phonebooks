@@ -1,4 +1,5 @@
 import { Action } from '@ngrx/store';
+import { ICreatePhoneBookHttp } from 'src/app/models/http-models/phonebook-http.interface';
 import { IPhoneBook } from 'src/app/models/IPhoneBook';
 
 
@@ -41,7 +42,7 @@ export class CreatePhoneBook implements Action {
   
   export class CreatePhoneBookSuccess implements Action {
     public readonly type =EPhoneBookActions.CreatePhoneBookSuccess;
-    constructor(public payload: IPhoneBook[]) {}
+    constructor(public payload: ICreatePhoneBookHttp) {}
   }
 
 export type PhoneBookActions = CreatePhoneBook|CreatePhoneBookSuccess|GetPhoneBooks | GetPhoneBooksSuccess | GetPhoneBook | GetPhoneBookSuccess;

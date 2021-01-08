@@ -80,11 +80,6 @@ C:\Projects\phonebook_new\phonebook\bin\Debug\netcoreapp3.1\runtimes\win-x86\nat
 C:\Projects\phonebook_new\phonebook\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Projects\phonebook_new\phonebook\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Projects\phonebook_new\phonebook\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Projects\phonebook_new\phonebook\bin\Debug\netcoreapp3.1\common.infrastructure.dll
-C:\Projects\phonebook_new\phonebook\bin\Debug\netcoreapp3.1\dataaccess.dll
-C:\Projects\phonebook_new\phonebook\bin\Debug\netcoreapp3.1\common.infrastructure.pdb
-C:\Projects\phonebook_new\phonebook\bin\Debug\netcoreapp3.1\dataaccess.pdb
-C:\Projects\phonebook_new\phonebook\obj\Debug\netcoreapp3.1\phonebook.csprojAssemblyReference.cache
 C:\Projects\phonebook_new\phonebook\obj\Debug\netcoreapp3.1\phonebook.csproj.CoreCompileInputs.cache
 C:\Projects\phonebook_new\phonebook\obj\Debug\netcoreapp3.1\phonebook.MvcApplicationPartsAssemblyInfo.cs
 C:\Projects\phonebook_new\phonebook\obj\Debug\netcoreapp3.1\phonebook.MvcApplicationPartsAssemblyInfo.cache

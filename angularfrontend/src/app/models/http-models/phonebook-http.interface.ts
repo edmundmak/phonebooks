@@ -5,3 +5,8 @@ export interface IPhoneBookHttp {
   phoneBookName: string,
   success: boolean
 }
+
+export interface ICreatePhoneBookHttp {
+  message: string,
+  success: boolean
+}

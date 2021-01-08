@@ -12,7 +12,7 @@ export const selectPhoneBookList = createSelector(
 
 
 
-export const selectSelectedPhoneBook = createSelector(
+export const selectCreateedPhoneBook = createSelector(
     selectPhoneBooks,
-  (state: IPhoneBookState) => state.selectedPhoneBook
+  (state: IPhoneBookState) => state.createphoneBook
 );

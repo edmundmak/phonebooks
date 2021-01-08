@@ -14,3 +14,17 @@ C:\Projects\common.infrastructure\obj\Debug\netcoreapp3.1\common.infrastructure.
 C:\Projects\common.infrastructure\obj\Debug\netcoreapp3.1\common.infrastructure.csproj.CoreCompileInputs.cache
 C:\Projects\common.infrastructure\obj\Debug\netcoreapp3.1\common.infrastructure.dll
 C:\Projects\common.infrastructure\obj\Debug\netcoreapp3.1\common.infrastructure.pdb
+C:\Projects\phonebook_new\common.infrastructure\bin\Debug\netcoreapp3.1\common.infrastructure.deps.json
+C:\Projects\phonebook_new\common.infrastructure\bin\Debug\netcoreapp3.1\common.infrastructure.dll
+C:\Projects\phonebook_new\common.infrastructure\bin\Debug\netcoreapp3.1\common.infrastructure.pdb
+C:\Projects\phonebook_new\common.infrastructure\obj\Debug\netcoreapp3.1\common.infrastructure.AssemblyInfoInputs.cache
+C:\Projects\phonebook_new\common.infrastructure\obj\Debug\netcoreapp3.1\common.infrastructure.AssemblyInfo.cs
+C:\Projects\phonebook_new\common.infrastructure\obj\Debug\netcoreapp3.1\common.infrastructure.csproj.CoreCompileInputs.cache
+C:\Projects\phonebook_new\common.infrastructure\obj\Debug\netcoreapp3.1\common.infrastructure.dll
+C:\Projects\phonebook_new\common.infrastructure\obj\Debug\netcoreapp3.1\common.infrastructure.pdb
+C:\Projects\phonebook_new\phonebook\common.infrastructure\bin\Debug\netcoreapp3.1\common.infrastructure.deps.json
+C:\Projects\phonebook_new\phonebook\common.infrastructure\bin\Debug\netcoreapp3.1\common.infrastructure.dll
+C:\Projects\phonebook_new\phonebook\common.infrastructure\bin\Debug\netcoreapp3.1\common.infrastructure.pdb
+C:\Projects\phonebook_new\phonebook\common.infrastructure\obj\Debug\netcoreapp3.1\common.infrastructure.csproj.CoreCompileInputs.cache
+C:\Projects\phonebook_new\phonebook\common.infrastructure\obj\Debug\netcoreapp3.1\common.infrastructure.dll
+C:\Projects\phonebook_new\phonebook\common.infrastructure\obj\Debug\netcoreapp3.1\common.infrastructure.pdb
