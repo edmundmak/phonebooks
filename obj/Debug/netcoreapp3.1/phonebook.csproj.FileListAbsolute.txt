@@ -94,3 +94,4 @@ C:\Projects\phonebook_new\phonebook\bin\Debug\netcoreapp3.1\angularfrontend\tsco
 C:\Projects\phonebook_new\phonebook\bin\Debug\netcoreapp3.1\angularfrontend\tsconfig.json
 C:\Projects\phonebook_new\phonebook\bin\Debug\netcoreapp3.1\angularfrontend\tsconfig.spec.json
 C:\Projects\phonebook_new\phonebook\bin\Debug\netcoreapp3.1\angularfrontend\tslint.json
+C:\Projects\phonebook_new\phonebook\bin\Debug\netcoreapp3.1\angularfrontend\package-lock.json

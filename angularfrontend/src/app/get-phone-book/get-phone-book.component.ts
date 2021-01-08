@@ -9,8 +9,14 @@ import { Observable } from 'rxjs';
 
 import {MatPaginator} from '@angular/material/paginator';
 import {MatSort} from '@angular/material/sort';
-import {MatTableDataSource} from '@angular/material/table';
+import {MatTableDataSource, MatTable,MatRow} from '@angular/material/table';
+import { phonebookName } from '../constants';
 
+import {
+ MatTableModule,
+  MatHeaderRow, MatHeaderCell, MatHeaderCellDef, MatHeaderRowDef,
+   MatRowDef,  MatCell, MatCellDef,
+} from '@angular/material/table';
 
 
 
@@ -27,7 +33,7 @@ export class GetPhoneBookComponent implements OnInit {
   constructor(private _store: Store<IAppState>, private _router: Router) {}
 
   ngOnInit() {
-    this._store.dispatch(new GetPhoneBooks());
+    this._store.dispatch(new GetPhoneBooks(phonebookName));
     this.phonebooks$.subscribe(response => {
      this.dataSource = new MatTableDataSource(response);;
     });

@@ -22,6 +22,7 @@ import { MatTableModule } from '@angular/material/table';
 import { CreateentryComponent } from './createentry/createentry.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
+import { AngularMaterialModule } from './material.module';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { CommonModule } from '@angular/common';
     BrowserModule,
     HttpClientModule,
     MatTableModule,
+    AngularMaterialModule,
     CommonModule,
     ReactiveFormsModule,
     StoreModule.forRoot(appReducers),

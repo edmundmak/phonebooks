@@ -3,5 +3,6 @@ export interface IPhoneBook {
     success: boolean;
     phoneNumber:string;
     message: string;
+    phoneBookName:string
   }
   

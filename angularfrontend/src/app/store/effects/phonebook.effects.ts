@@ -56,9 +56,10 @@ export class PhonebookEffects {
   @Effect()
   getPhoneBooks$ = this._actions$.pipe(
     ofType<GetPhoneBooks>(EPhoneBookActions.GetPhoneBooks),
-    switchMap(() => this._phonebookService.getPhoneBooks()),
+    switchMap((action:GetPhoneBooks) => this._phonebookService.getPhoneBooks(action.payload)),
     switchMap((phonebookHttp: IPhoneBookHttp) =>{ 
-        return of(new GetPhoneBooksSuccess(phonebookHttp.getEntryResponses,phonebookHttp.success,phonebookHttp.message, phonebookHttp.phoneBookName))
+      debugger;  
+      return of(new GetPhoneBooksSuccess(phonebookHttp.getEntryResponses,phonebookHttp.success,phonebookHttp.message, phonebookHttp.phoneBookName))
     
     })
   );

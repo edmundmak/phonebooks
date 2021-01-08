@@ -7,6 +7,7 @@ import { selectPhoneBookList } from '../store/selectors/phonebook.selectors';
 import { IAppState } from '../store/state/app.state';
 import { Store, select } from '@ngrx/store';
 import { Observable } from 'rxjs';
+import { phonebookName } from '../constants';
 
 
 @Component({
@@ -51,7 +52,7 @@ export class CreateentryComponent implements OnInit {
     
     this.loading = true;
     this._store.dispatch(new CreatePhoneBook([{name:this.form.value.name,phoneNumber:
-      this.form.value.phoneNumber,success:false,message:""}]));
+    this.form.value.phoneNumber,success:false,message:"", phoneBookName:phonebookName}]));
 }
 
 }

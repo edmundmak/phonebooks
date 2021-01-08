@@ -1,9 +1,11 @@
 
-
+<div class="card">
+  <h4 class="card-header">View Phone Book</h4>
+  <div class="card-body">
 
   <mat-form-field>
-    <mat-label>Filter</mat-label>
-    <input matInput (keyup)="applyFilter($event)" placeholder="Search Contact" #input>
+    <mat-label>Search Contact</mat-label>
+    <input matInput (keyup)="applyFilter($event)" placeholder="Type here" #input>
   </mat-form-field>
   
   <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
@@ -29,3 +31,5 @@
       <td class="mat-cell" colspan="4">No data matching the filter "{{input.value}}"</td>
     </tr>
   </table>
+  </div>
+  </div>

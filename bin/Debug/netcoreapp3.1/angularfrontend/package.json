@@ -28,6 +28,7 @@
     "@ngrx/store-devtools": "^10.1.2",
     "angular-material-data-table": "^0.10.10",
     "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
     "material": "^0.4.3",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",

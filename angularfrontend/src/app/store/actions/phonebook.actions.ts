@@ -16,6 +16,7 @@ export enum EPhoneBookActions {
 export class GetPhoneBooks implements Action {
   [x: string]: any;
   public readonly type =EPhoneBookActions.GetPhoneBooks;
+  constructor(public payload: string) {}
 }
 
 export class GetPhoneBooksSuccess implements Action {
