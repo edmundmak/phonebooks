@@ -87,3 +87,10 @@ C:\Projects\phonebook_new\phonebook\obj\Debug\netcoreapp3.1\phonebook.csproj.Cop
 C:\Projects\phonebook_new\phonebook\obj\Debug\netcoreapp3.1\phonebook.dll
 C:\Projects\phonebook_new\phonebook\obj\Debug\netcoreapp3.1\phonebook.pdb
 C:\Projects\phonebook_new\phonebook\obj\Debug\netcoreapp3.1\phonebook.genruntimeconfig.cache
+C:\Projects\phonebook_new\phonebook\bin\Debug\netcoreapp3.1\angularfrontend\angular.json
+C:\Projects\phonebook_new\phonebook\bin\Debug\netcoreapp3.1\angularfrontend\e2e\tsconfig.json
+C:\Projects\phonebook_new\phonebook\bin\Debug\netcoreapp3.1\angularfrontend\package.json
+C:\Projects\phonebook_new\phonebook\bin\Debug\netcoreapp3.1\angularfrontend\tsconfig.app.json
+C:\Projects\phonebook_new\phonebook\bin\Debug\netcoreapp3.1\angularfrontend\tsconfig.json
+C:\Projects\phonebook_new\phonebook\bin\Debug\netcoreapp3.1\angularfrontend\tsconfig.spec.json
+C:\Projects\phonebook_new\phonebook\bin\Debug\netcoreapp3.1\angularfrontend\tslint.json
