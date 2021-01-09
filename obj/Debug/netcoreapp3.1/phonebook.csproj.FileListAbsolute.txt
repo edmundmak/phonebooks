@@ -90,3 +90,4 @@ C:\Projects\phonebook_new\phonebook\obj\Debug\netcoreapp3.1\phonebook.csproj.Cop
 C:\Projects\phonebook_new\phonebook\obj\Debug\netcoreapp3.1\phonebook.dll
 C:\Projects\phonebook_new\phonebook\obj\Debug\netcoreapp3.1\phonebook.pdb
 C:\Projects\phonebook_new\phonebook\obj\Debug\netcoreapp3.1\phonebook.genruntimeconfig.cache
+C:\Projects\phonebook_new\phonebook\obj\Debug\netcoreapp3.1\phonebook.csprojAssemblyReference.cache

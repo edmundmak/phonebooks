@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "C09YytaN5Uob7S2Jpn5tZOTsLP/3FpAwiHx6pf/1Wq0lJ9kizzsgOajkyCiRQOfvn0svbaYuU5WC5j6S8D7rtw==",
+  "dgSpecHash": "NFOmoLT4VrDh6LmVkZDOFHRMvwrPOd79zC0uL6rl2IdJbpBFm0WL7hU38aPNMWmszmhrsj7QZmq5C5bMI2r5mw==",
   "success": true,
   "projectFilePath": "C:\\Projects\\phonebook_new\\phonebook\\dataaccess\\dataaccess.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "C:\\Users\\emakuwaz\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.1\\microsoft.entityframeworkcore.design.5.0.1.nupkg.sha512",
     "C:\\Users\\emakuwaz\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.1\\microsoft.entityframeworkcore.relational.5.0.1.nupkg.sha512",
     "C:\\Users\\emakuwaz\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\5.0.1\\microsoft.entityframeworkcore.sqlserver.5.0.1.nupkg.sha512",
+    "C:\\Users\\emakuwaz\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\5.0.1\\microsoft.entityframeworkcore.tools.5.0.1.nupkg.sha512",
     "C:\\Users\\emakuwaz\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\emakuwaz\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
     "C:\\Users\\emakuwaz\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",

@@ -20,7 +20,7 @@ export class PhoneBookService {
   }
  createPhoneEntry(createPhoneRequest:IPhoneBook[]): Observable<IPhoneBookHttp> {
     debugger;
-  let createPhoneBook={"Name":createPhoneRequest[0].name,"PhoneBookName":createPhoneRequest[0].phoneBookName,"PhoneNumber":createPhoneRequest[0].phoneNumber};
+  let createPhoneBook={"Name":createPhoneRequest[0].name,"PhoneBookName":createPhoneRequest[0].phoneBookName,"PhoneNumber":createPhoneRequest[0].phoneNumber.toString()};
   var response=this._http.post<any>(this.usersUrl+"/PhoneBookEntry/createentry",createPhoneBook );
   console.log(response);
   return response;

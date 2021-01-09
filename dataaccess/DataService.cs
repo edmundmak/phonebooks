@@ -1,6 +1,6 @@
 ﻿using common.infrastructure.Requests;
 using common.infrastructure.Responses;
-using dataaccess.Model;
+using dataaccess.Models;
 using System.Linq;
 using System.Collections.Generic;
 using System;
@@ -15,7 +15,7 @@ namespace dataaccess
         {
             try
             {
-                using (var dbcontext = new PhoneBookContext())
+                using (var dbcontext = new PhoneBooksContext())
                 {
                     var phonebooks = dbcontext.PhoneBooks.Where(p => p.Name.Equals(getPhoneBook.Name)).FirstOrDefault();
                     var getEntries = this.getEntriesByPhoneBookID(phonebooks.Id);
@@ -32,9 +32,9 @@ namespace dataaccess
         {
             try
             {
-                using (var dbcontext = new PhoneBookContext())
+                using (var dbcontext = new PhoneBooksContext())
                 {
-                    PhoneBook addBook = new PhoneBook { Name = createPhoneBookRequest.PhoneBookName };
+                    PhoneBooks addBook = new PhoneBooks { Name = createPhoneBookRequest.PhoneBookName };
                     var checkPhoneBookNameIFExists = dbcontext.PhoneBooks.Where(name => name.Name.Equals(createPhoneBookRequest.PhoneBookName)).SingleOrDefault();
                     int phonebookID;
                     if (checkPhoneBookNameIFExists.Id < 0)
@@ -47,13 +47,13 @@ namespace dataaccess
                     {
                         phonebookID = checkPhoneBookNameIFExists.Id;
                     }
-                    Entry bookEntry = new Entry
+                    PhoneBookEntry bookEntry = new PhoneBookEntry
                     {
-                        Name = createPhoneBookRequest.Name,
-                        PhoneBookId = phonebookID,
+                        Name = createPhoneBookRequest.Name, 
+                        PhoneBooksId= phonebookID,
                         PhoneNumber = createPhoneBookRequest.PhoneNumber
                     };
-                    dbcontext.Entries.Add(bookEntry);
+                    dbcontext.PhoneBookEntries.Add(bookEntry);
                     dbcontext.SaveChanges();
                     return new CreatePhoneBookResponses { Success = true, Message = string.Empty };
                 }
@@ -66,9 +66,9 @@ namespace dataaccess
         private List<EntryResponses> getEntriesByPhoneBookID(int phonebookID)
         {
             List<EntryResponses> entryResponses=new List<EntryResponses>();
-              using (var dbcontext = new PhoneBookContext())
+              using (var dbcontext = new PhoneBooksContext())
                 {
-                    var entries = dbcontext.Entries.Where(entry => entry.PhoneBookId.Equals(phonebookID)).ToList();
+                    var entries = dbcontext.PhoneBookEntries.Where(entry => entry.PhoneBooksId.Equals(phonebookID)).ToList();
                     foreach (var entry in entries)
                     {
                         EntryResponses newEntry = new EntryResponses

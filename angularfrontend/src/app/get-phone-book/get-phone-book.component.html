@@ -3,6 +3,10 @@
   <h4 class="card-header">View Phone Book</h4>
   <div class="card-body">
 
+    <div class="pt-2 pb-3 fw-bold">To add a new Phone Book Entry  
+      <a href="/createentry" class="text-danger">Click here</a>
+    </div> 
+
   <mat-form-field>
     <mat-label>Search Contact</mat-label>
     <input matInput (keyup)="applyFilter($event)" placeholder="Type here" #input>

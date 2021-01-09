@@ -4,6 +4,8 @@ C:\Projects\phonebook_new\phonebook\angularfrontend\dist\out-tsc\e2e\src\app.e2e
 C:\Projects\phonebook_new\phonebook\angularfrontend\dist\out-tsc\e2e\src\app.e2e-spec.js.map
 C:\Projects\phonebook_new\phonebook\angularfrontend\dist\out-tsc\src\app\models\IPhoneBook.js
 C:\Projects\phonebook_new\phonebook\angularfrontend\dist\out-tsc\src\app\models\IPhoneBook.js.map
+C:\Projects\phonebook_new\phonebook\angularfrontend\dist\out-tsc\src\app\models\http-models\phonebook-http.interface.js
+C:\Projects\phonebook_new\phonebook\angularfrontend\dist\out-tsc\src\app\models\http-models\phonebook-http.interface.js.map
 C:\Projects\phonebook_new\phonebook\angularfrontend\dist\out-tsc\src\app\store\state\phonebook.state.js
 C:\Projects\phonebook_new\phonebook\angularfrontend\dist\out-tsc\src\app\store\state\phonebook.state.js.map
 C:\Projects\phonebook_new\phonebook\angularfrontend\dist\out-tsc\src\app\store\actions\phonebook.actions.js
@@ -26,8 +28,6 @@ C:\Projects\phonebook_new\phonebook\angularfrontend\dist\out-tsc\src\app\store\r
 C:\Projects\phonebook_new\phonebook\angularfrontend\dist\out-tsc\src\app\store\reducers\phonebook.reducers.js.map
 C:\Projects\phonebook_new\phonebook\angularfrontend\dist\out-tsc\src\app\store\reducers\app.reducers.js
 C:\Projects\phonebook_new\phonebook\angularfrontend\dist\out-tsc\src\app\store\reducers\app.reducers.js.map
-C:\Projects\phonebook_new\phonebook\angularfrontend\dist\out-tsc\src\app\models\http-models\phonebook-http.interface.js
-C:\Projects\phonebook_new\phonebook\angularfrontend\dist\out-tsc\src\app\models\http-models\phonebook-http.interface.js.map
 C:\Projects\phonebook_new\phonebook\angularfrontend\dist\out-tsc\src\environments\environment.js
 C:\Projects\phonebook_new\phonebook\angularfrontend\dist\out-tsc\src\environments\environment.js.map
 C:\Projects\phonebook_new\phonebook\angularfrontend\dist\out-tsc\src\app\services\phonebook.service.js
