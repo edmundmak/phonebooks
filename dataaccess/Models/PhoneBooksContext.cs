@@ -26,7 +26,6 @@ namespace dataaccess.Models
             modelBuilder.Entity<Login>().HasData(new Login { Id = 1, Username="login", Password = "123456" });
             modelBuilder.Entity<PhoneBookEntry>().HasData(new PhoneBookEntry { Id = 1, Name = "Tom", PhoneNumber="011234678", PhoneBooksId=1 });
         }
-
         public DbSet<PhoneBooks> PhoneBooks { get; set; }
         public DbSet<Login> Logins { get; set; }
         public DbSet<PhoneBookEntry> PhoneBookEntries{ get; set; }
