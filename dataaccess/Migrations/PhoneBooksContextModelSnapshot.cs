@@ -18,6 +18,32 @@ namespace dataaccess.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.1");
 
+            modelBuilder.Entity("dataaccess.Models.Login", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .UseIdentityColumn();
+
+                    b.Property<string>("Password")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Username")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Logins");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Password = "123456",
+                            Username = "login"
+                        });
+                });
+
             modelBuilder.Entity("dataaccess.Models.PhoneBookEntry", b =>
                 {
                     b.Property<int>("Id")

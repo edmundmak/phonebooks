@@ -27,6 +27,22 @@ namespace dataaccess
                 return new PhoneBookResponses { PhoneBookName = string.Empty, GetEntryResponses = null, Success = false, Message = ex.Message };
             }
         }
+        public LoginResponses GetLoginPhoneBooks(GetLoginRequest getLoginRequest)
+        {
+            try
+            {
+                using (var dbcontext = new PhoneBooksContext())
+                {
+                    var users = dbcontext.Logins.Where(user => user.Password.Equals(getLoginRequest.Password)
+                    && user.Username.Equals(getLoginRequest.Username)).FirstOrDefault();
+                    return new LoginResponses { Username=users.Username, Success = true, Message = string.Empty };
+                }
+            }
+            catch (Exception ex)
+            {
+                return new LoginResponses { Username = string.Empty, Success = false, Message = ex.Message };
+            }
+        }
 
         public CreatePhoneBookResponses CreatePhoneBooks(CreatePhoneBookRequest createPhoneBookRequest)
         {

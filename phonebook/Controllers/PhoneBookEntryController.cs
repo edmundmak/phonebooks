@@ -37,6 +37,12 @@ namespace phonebook.Controllers
             return response;
 
         }
+        [HttpPost("login")]
+        public LoginResponses GetUserLogin([FromBody] GetLoginRequest getLoginRequest)
+        {
+            var response = _services.GetLoginPhoneBooks(getLoginRequest);
+            return response;
+        }
 
     }
 }
