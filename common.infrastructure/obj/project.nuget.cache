@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5S+/cMuchbjjnuo5nYx35JoKJTo92SuruhLxLL0KeNJEyZzlATHJK1FsOcY+HqozF2o64/qTkBarrqyUhUnzGw==",
+  "dgSpecHash": "hP/PwKGEjD8GFVkwbe8dtYYtN0fPztbC6ZiCfZz3yjkIOSPqCKqxz62u9FfFSNnldLEUSC78MkeYjg/d0lbzjA==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\phonebook_new\\phonebook\\common.infrastructure\\common.infrastructure.csproj",
+  "projectFilePath": "C:\\Projects\\myphonebook\\phonebooks\\common.infrastructure\\common.infrastructure.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

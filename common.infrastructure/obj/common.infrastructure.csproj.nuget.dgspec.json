@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\phonebook_new\\phonebook\\common.infrastructure\\common.infrastructure.csproj": {}
+    "C:\\Projects\\myphonebook\\phonebooks\\common.infrastructure\\common.infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\phonebook_new\\phonebook\\common.infrastructure\\common.infrastructure.csproj": {
+    "C:\\Projects\\myphonebook\\phonebooks\\common.infrastructure\\common.infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\phonebook_new\\phonebook\\common.infrastructure\\common.infrastructure.csproj",
+        "projectUniqueName": "C:\\Projects\\myphonebook\\phonebooks\\common.infrastructure\\common.infrastructure.csproj",
         "projectName": "common.infrastructure",
-        "projectPath": "C:\\Projects\\phonebook_new\\phonebook\\common.infrastructure\\common.infrastructure.csproj",
+        "projectPath": "C:\\Projects\\myphonebook\\phonebooks\\common.infrastructure\\common.infrastructure.csproj",
         "packagesPath": "C:\\Users\\emakuwaz\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\phonebook_new\\phonebook\\common.infrastructure\\obj\\",
+        "outputPath": "C:\\Projects\\myphonebook\\phonebooks\\common.infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\emakuwaz\\AppData\\Roaming\\NuGet\\NuGet.Config",

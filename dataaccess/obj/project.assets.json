@@ -5820,11 +5820,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\phonebook_new\\phonebook\\dataaccess\\dataaccess.csproj",
+      "projectUniqueName": "C:\\Projects\\myphonebook\\phonebooks\\dataaccess\\dataaccess.csproj",
       "projectName": "dataaccess",
-      "projectPath": "C:\\Projects\\phonebook_new\\phonebook\\dataaccess\\dataaccess.csproj",
+      "projectPath": "C:\\Projects\\myphonebook\\phonebooks\\dataaccess\\dataaccess.csproj",
       "packagesPath": "C:\\Users\\emakuwaz\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\phonebook_new\\phonebook\\dataaccess\\obj\\",
+      "outputPath": "C:\\Projects\\myphonebook\\phonebooks\\dataaccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\emakuwaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5841,8 +5841,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Projects\\phonebook_new\\phonebook\\common.infrastructure\\common.infrastructure.csproj": {
-              "projectPath": "C:\\Projects\\phonebook_new\\phonebook\\common.infrastructure\\common.infrastructure.csproj"
+            "C:\\Projects\\myphonebook\\phonebooks\\common.infrastructure\\common.infrastructure.csproj": {
+              "projectPath": "C:\\Projects\\myphonebook\\phonebooks\\common.infrastructure\\common.infrastructure.csproj"
             }
           }
         }
