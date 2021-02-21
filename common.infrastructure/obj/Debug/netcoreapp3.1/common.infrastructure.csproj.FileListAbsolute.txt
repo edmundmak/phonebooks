@@ -28,3 +28,10 @@ C:\Projects\phonebook_new\phonebook\common.infrastructure\bin\Debug\netcoreapp3.
 C:\Projects\phonebook_new\phonebook\common.infrastructure\obj\Debug\netcoreapp3.1\common.infrastructure.csproj.CoreCompileInputs.cache
 C:\Projects\phonebook_new\phonebook\common.infrastructure\obj\Debug\netcoreapp3.1\common.infrastructure.dll
 C:\Projects\phonebook_new\phonebook\common.infrastructure\obj\Debug\netcoreapp3.1\common.infrastructure.pdb
+C:\Projects\myphonebook\phonebooks\common.infrastructure\bin\Debug\netcoreapp3.1\common.infrastructure.deps.json
+C:\Projects\myphonebook\phonebooks\common.infrastructure\bin\Debug\netcoreapp3.1\common.infrastructure.dll
+C:\Projects\myphonebook\phonebooks\common.infrastructure\bin\Debug\netcoreapp3.1\common.infrastructure.pdb
+C:\Projects\myphonebook\phonebooks\common.infrastructure\obj\Debug\netcoreapp3.1\common.infrastructure.csprojAssemblyReference.cache
+C:\Projects\myphonebook\phonebooks\common.infrastructure\obj\Debug\netcoreapp3.1\common.infrastructure.csproj.CoreCompileInputs.cache
+C:\Projects\myphonebook\phonebooks\common.infrastructure\obj\Debug\netcoreapp3.1\common.infrastructure.dll
+C:\Projects\myphonebook\phonebooks\common.infrastructure\obj\Debug\netcoreapp3.1\common.infrastructure.pdb

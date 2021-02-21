@@ -16,7 +16,9 @@ export class AddBookComponent implements OnInit {
   public formPhoneBook: FormGroup;
   public phonebook: PhoneBook;
   submitAttempt = false;
-  errorMessage:string;  
+   loading = false;
+  error: string;
+  errorMessage:string;
 
   constructor(
     private readonly formBuilder: FormBuilder,
@@ -51,9 +53,9 @@ get name(): AbstractControl {
 }
 submit() {
   this.submitAttempt = true;
-  debugger;
   if (this.formPhoneBook.valid) {
-      this.phonebookService.createPhoneBooks({PhoneBookName:PhonebookName,Name:this.name.value,PhoneNumber:this.phonenumber.value}).subscribe(    
+    const phonebookName=sessionStorage.getItem("selectedphonebookName");
+      this.phonebookService.createPhoneBooks({PhoneBookName:phonebookName,Name:this.name.value,PhoneNumber:this.phonenumber.value}).subscribe(    
     data => {    
       debugger;    
       if(data.success)    

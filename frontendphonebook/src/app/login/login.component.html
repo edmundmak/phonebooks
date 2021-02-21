@@ -22,6 +22,19 @@
         </div>
     </div>
     <div class="form-group">
+        <label for="PhoneBook">PhoneBook</label>
+        
+        <select formControlName="books" (change)="changeBook($event)" class="form-control" id="books" ngModel [ngClass]="{ 'is-invalid': submitAttempt && books.errors }" required>
+            <option value="" disabled>Choose your Phone Book</option>
+            <option *ngFor="let book of booksOptions" [ngValue]="book.name">{{book.name}}</option>
+          </select>
+        
+        
+        <div *ngIf="submitAttempt && books.errors" class="invalid-feedback">
+            <div *ngIf="books.errors.required">Please select Phone Book</div>
+        </div>
+    </div>
+    <div class="form-group">
         <button [disabled]="loading" class="btn btn-primary">
             <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
             Login

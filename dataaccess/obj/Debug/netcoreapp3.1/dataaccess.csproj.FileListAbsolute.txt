@@ -41,3 +41,16 @@ C:\Projects\phonebook_new\phonebook\dataaccess\obj\Debug\netcoreapp3.1\dataacces
 C:\Projects\phonebook_new\phonebook\dataaccess\obj\Debug\netcoreapp3.1\dataaccess.dll
 C:\Projects\phonebook_new\phonebook\dataaccess\obj\Debug\netcoreapp3.1\dataaccess.pdb
 C:\Projects\phonebook_new\phonebook\dataaccess\obj\Debug\netcoreapp3.1\dataaccess.genruntimeconfig.cache
+C:\Projects\myphonebook\phonebooks\dataaccess\bin\Debug\netcoreapp3.1\dataaccess.deps.json
+C:\Projects\myphonebook\phonebooks\dataaccess\bin\Debug\netcoreapp3.1\dataaccess.runtimeconfig.json
+C:\Projects\myphonebook\phonebooks\dataaccess\bin\Debug\netcoreapp3.1\dataaccess.runtimeconfig.dev.json
+C:\Projects\myphonebook\phonebooks\dataaccess\bin\Debug\netcoreapp3.1\dataaccess.dll
+C:\Projects\myphonebook\phonebooks\dataaccess\bin\Debug\netcoreapp3.1\dataaccess.pdb
+C:\Projects\myphonebook\phonebooks\dataaccess\bin\Debug\netcoreapp3.1\common.infrastructure.dll
+C:\Projects\myphonebook\phonebooks\dataaccess\bin\Debug\netcoreapp3.1\common.infrastructure.pdb
+C:\Projects\myphonebook\phonebooks\dataaccess\obj\Debug\netcoreapp3.1\dataaccess.csprojAssemblyReference.cache
+C:\Projects\myphonebook\phonebooks\dataaccess\obj\Debug\netcoreapp3.1\dataaccess.csproj.CoreCompileInputs.cache
+C:\Projects\myphonebook\phonebooks\dataaccess\obj\Debug\netcoreapp3.1\dataaccess.csproj.CopyComplete
+C:\Projects\myphonebook\phonebooks\dataaccess\obj\Debug\netcoreapp3.1\dataaccess.dll
+C:\Projects\myphonebook\phonebooks\dataaccess\obj\Debug\netcoreapp3.1\dataaccess.pdb
+C:\Projects\myphonebook\phonebooks\dataaccess\obj\Debug\netcoreapp3.1\dataaccess.genruntimeconfig.cache

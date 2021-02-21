@@ -44,7 +44,9 @@ export class HomeComponent implements OnInit {
   };
 
 fetchPhoneBooks() {
-      this.phoneBookService.getPhoneBooks(PhonebookName).subscribe(    
+  debugger;
+  const phonebookName=sessionStorage.getItem("selectedphonebookName");
+      this.phoneBookService.getPhoneBooks(phonebookName).subscribe(    
     data => {    
       debugger;    
       if(data.success)    

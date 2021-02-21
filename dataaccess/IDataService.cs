@@ -11,5 +11,6 @@ namespace dataaccess
         public PhoneBookResponses GetPhoneEntryByPhoneBookName(GetPhoneBookRequest getPhoneBook);
         public CreatePhoneBookResponses CreatePhoneBooks(CreatePhoneBookRequest createPhoneBookRequest);
         public LoginResponses GetLoginPhoneBooks(GetLoginRequest getLoginRequest);
+        public GetPhoneBookResponses GetPhoneBooks();
     }
 }

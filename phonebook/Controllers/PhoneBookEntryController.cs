@@ -44,5 +44,12 @@ namespace phonebook.Controllers
             return response;
         }
 
+        [HttpPost("getbooks")]
+        public GetPhoneBookResponses GetPhoneBooks()
+        {
+            var response = _services.GetPhoneBooks();
+            return response;
+        }
+
     }
 }

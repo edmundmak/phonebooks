@@ -1,48 +1,48 @@
 <div class="container" style="padding-top:60px;">  
-    <div class="row">  
-      <div class="col-md-12"> 
-          <div class="card p-4">  
-            <div class="card-body">  
-                <form [formGroup]="formPhoneBook">
-             
-                <h1 style="text-align:center">Add PhoneBook</h1>  
-                 
-                <div class="input-group mb-3">  
-                <input type="text"  class="form-control"
-                                               formControlName="name"
-                                               required />
-                </div>  
-                <div class="input-group mb-4">  
-                  
-                  <input  class="form-control" type="text"
-                  formControlName="phonenumber"
-                  required />
+  <div class="row">  
+    <div class="col-md-12"> 
+        <div class="card p-4">  
+          <div class="card-body">  
+              <form [formGroup]="formPhoneBook">
+           
+              <h1 style="text-align:center">Add PhoneBook</h1>  
                
+              <div class="input-group mb-3">  
+              <input type="text"  class="form-control"
+                                             formControlName="name"
+                                             required />
+              </div>  
+              <div class="input-group mb-4">  
+                
+                <input  class="form-control" type="text"
+                formControlName="phonenumber"
+                required />
+             
+              </div>  
+                      
+            </form>  
+              <div>  
+                  <p style="color:#E92626;font-size:20px;font-weight:normal" Class="success" align="left">  
+                    {{errorMessage}}  
+                  </p>  
                 </div>  
-                        
-              </form>  
-                <div>  
-                    <p style="color:#E92626;font-size:20px;font-weight:normal" Class="success" align="left">  
-                      {{errorMessage}}  
-                    </p>  
-                  </div>  
-                <div class="row">  
-                  <div class="col-6">  
-                    <button type="submit" (click)="submit()"  class="btn btn-primary px-4"></button>  
-                  </div>  
-                  <div class="col-6 text-right">  
-                    
-                    <div *ngIf="submitAttempt && formPhoneBook.invalid" class="error-container">
-                        <p style="color:#E92626;font-size:20px;font-weight:normal" Class="success" align="left">  
-                            {{errorMessage}}  
-                          </p>  
-                    </div>
-                  </div>  
+              <div class="row">  
+                <div class="col-6">  
+                  <button type="submit" (click)="submit()"  class="btn btn-primary px-4">Submit</button>  
                 </div>  
-          
-            </div>  
-          </div>
-      </div>  
+                <div class="col-6 text-right">  
+                  
+                  <div *ngIf="submitAttempt && formPhoneBook.invalid" class="error-container">
+                      <p style="color:#E92626;font-size:20px;font-weight:normal" Class="success" align="left">  
+                          {{errorMessage}}  
+                        </p>  
+                  </div>
+                </div>  
+              </div>  
+        
+          </div>  
+        </div>
     </div>  
   </div>  
+</div>  
 

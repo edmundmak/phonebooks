@@ -26,5 +26,9 @@ export class PhoneBookService {
     const createUrl =Url+"createentry";  
    return this.http.post<any>(createUrl,model,{ headers: this.header});  
   }  
+  getBooks(){  
+    const createUrl =Url+"getbooks";  
+   return this.http.post<any>(createUrl,{ headers: this.header});  
+  }  
    
 }  
