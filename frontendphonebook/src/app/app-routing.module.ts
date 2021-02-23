@@ -14,6 +14,7 @@ loadChildren: () => import('./home/home.module')
     .then(m => m.HomeModule),
 pathMatch: 'full',
 },
+{ path: '', redirectTo: '/login', pathMatch: 'full' },
 
 {path: 'addbook',
 loadChildren: () => import('./addbook/add-book.module')
