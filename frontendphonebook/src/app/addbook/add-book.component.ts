@@ -1,5 +1,5 @@
 import { Component, OnInit, Renderer2 } from '@angular/core';
-import { AbstractControl, FormBuilder, FormControl, FormGroup } from '@angular/forms';
+import { AbstractControl, FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { PhonebookName } from '../constants';
 import { Login, PhoneBook } from '../interface/phonebook';
@@ -17,6 +17,7 @@ export class AddBookComponent implements OnInit {
   public phonebook: PhoneBook;
   submitAttempt = false;
    loading = false;
+   success=false;
   error: string;
   errorMessage:string;
 
@@ -37,8 +38,8 @@ export class AddBookComponent implements OnInit {
   };
 
     this.formPhoneBook = this.formBuilder.group({
-      phonenumber: new FormControl(phonenumber, [this.validationService.requiredValidation('You must specify Phone NUmber')]),
-      name: new FormControl(name, [this.validationService.requiredValidation('You must specify name')])
+      phonenumber: ['', Validators.required],
+      name: ['', Validators.required]
   }
      
   );
@@ -54,21 +55,23 @@ get name(): AbstractControl {
 submit() {
   this.submitAttempt = true;
   if (this.formPhoneBook.valid) {
-    const phonebookName=sessionStorage.getItem("selectedphonebookName");
+      const phonebookName=sessionStorage.getItem("selectedphonebookName");
       this.phonebookService.createPhoneBooks({PhoneBookName:phonebookName,Name:this.name.value,PhoneNumber:this.phonenumber.value}).subscribe(    
-    data => {    
-      debugger;    
+    data => {     
       if(data.success)    
-      {       
+      {  
+        this.success=true;     
         this.name.setValue('');
         this.phonenumber.setValue('');
       }    
       else{    
         this.errorMessage = data.Message;    
+        this.success=false;
       }    
     },    
     error => {    
-      this.errorMessage = error.message;    
+      this.errorMessage = error.message;   
+      this.success=false; 
     });    
 };    
 }
